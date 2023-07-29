@@ -10,7 +10,7 @@ dotenv.config();
 const app = express();
 app.use(
   cors({
-    origin: ["https://lipicsy-server-35jxiihed-keyurgk.vercel.app"],
+    origin: ["https://lipicsy.vercel.app/"],
     methods: ["POST", "GET"],
     credentials: true,
   })
