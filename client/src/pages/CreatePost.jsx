@@ -74,7 +74,7 @@ const CreatePost = () => {
     }
   };
   return (
-    <section className="max-w-7xl mx-auto sm:mt-[15%] xxs:mt-[35%] ">
+    <section className="max-w-7xl mx-auto sm:mt-[10%] xxs:mt-[35%] ">
       <div>
         <p className="mt-2 text-[#f43054] text-[32px] font-extrabold max-w-auto">
           Unleash your imagination with Lipicsy - Where AI transforms your

@@ -23,7 +23,7 @@ const App = () => {
           Create
         </Link> */}
       </header>{" "}
-      <main className="sm:p-8 px-4 py-8 w-full bg-gradient-to-t from-custom-gradient-1 via-custom-gradient-2 to-custom-gradient-12  h-screen">
+      <main className="sm:p-8 px-4 py-8 w-full h-full bg-gradient-to-t from-custom-gradient-1 via-custom-gradient-2 to-custom-gradient-12">
         <Routes>
           <Route path="/" element={<CreatePost />} />
           {/* <Route path="/createPost" element={<CreatePost />} /> */}
