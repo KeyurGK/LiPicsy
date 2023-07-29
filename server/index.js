@@ -28,7 +28,7 @@ const startServer = async () => {
   try {
     connectDB(process.env.MONGODB_URL);
     app.listen(8080, () =>
-      console.log("Server has stated on port http://localhost:8080")
+      console.log("Server has stated on port https://lipicsy.vercel.app/")
     );
   } catch (error) {
     console.log(error);
