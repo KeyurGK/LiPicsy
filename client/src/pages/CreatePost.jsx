@@ -31,12 +31,12 @@ const CreatePost = () => {
         await response.json();
         Navigate("/");
       } catch (error) {
-        alert(error);
+        console.log(error);
       } finally {
         setLoading(false);
       }
     } else {
-      alert("Prompt taken !");
+      console.log("Prompt taken !");
     }
   };
   const handleChange = (e) => {
